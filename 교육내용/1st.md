@@ -19,6 +19,6 @@
 * 사운드센서 | http://mechasolution.com/shop/goods/goods_view.php?goodsno=1424   
 * ADC MCP3008 | http://mechasolution.com/shop/goods/goods_view.php?goodsno=8067  
 
-##교육과정  
+## 교육과정  
 * https://tizenschool.org/tutorial/150  
 * https://tizenschool.org/tutorial/194  
