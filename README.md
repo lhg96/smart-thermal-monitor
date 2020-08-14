@@ -4,6 +4,10 @@
 ## 첫번째 미션 수행  
 * https://github.com/lhg96/zoombo/issues/1
 
+## 두번째 미션 수행  
+* https://github.com/lhg96/zoombo/issues/3  
+
+
 ## 시리얼 연결  
 * https://github.com/lhg96/zoombo/issues/2
 
