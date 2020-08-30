@@ -7,6 +7,12 @@
 ## 두번째 미션 수행  
 * https://github.com/lhg96/zoombo/issues/3  
 
+## 세번째 미션 수행
+* https://github.com/lhg96/zoombo/blob/master/교육내용/service
+
+## 네번째 미션 수행  
+* https://github.com/lhg96/zoombo/issues/4  
+
 
 ## 시리얼 연결  
 * https://github.com/lhg96/zoombo/issues/2
