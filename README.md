@@ -12,7 +12,7 @@
 * 다중 센서를 이용하여 딥러닝 학습을 활용하는 방안을 연구  
 
 # 파일 리스트   
-* MainPage.xaml 메인 레이아웃   
+* Tizen 기본레이아웃 사용 + Arudino 센서처리부 사용 + Google App Engine 서버 Restful 활용
 * MainPage.xaml.cs C# 메인 페이지 코드  
 * Hackton.ino 아두이노 작동 코드  
 * AP.ino Wifi 작동 코드  
@@ -23,12 +23,22 @@
 * rcwl0516.ino radar 모션 센서 작동코드  
 * vl53.ino  레이저 거리측정 센서 작동코드  
 * ws2812b.ino RGB LED 작동코드  
+* ThermalAPI.java Restful API 사용 
+
+# 코드 기여자
+* 상위 코드 본인이 작성함  
+
+# 보드  
+* ESP32D : 대기온도, 열화상온도, 거리, 모션 감지, RGB , 터치 센서 데이터 수집 서버 전송  
+  +  https://github.com/lhg96/zoombo/tree/master/arduino/Hackerton  
+* RPI4 : 서버에서 데이터 수신 LCD 출력  
+  +  https://github.com/lhg96/zoombo/tree/master/tizen/ZoomboTA/ZoomboTA/ZoomboTA  
+
+# 구현사항 
+* 직접 연결 사항 없음 : 시간상 Library 개발은 못하고 WiFi 전송으로 대채하였음.
 
 
-
-
-
-
+***
 
 # 첫번째 수업 환경 설정
 ## 첫번째 미션 수행  
