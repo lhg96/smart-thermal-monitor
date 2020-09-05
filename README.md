@@ -35,7 +35,9 @@
   +  https://github.com/lhg96/zoombo/tree/master/tizen/ZoomboTA/ZoomboTA/ZoomboTA  
 
 # 구현사항 
-* 직접 연결 사항 없음 : 시간상 Library 개발은 못하고 WiFi 전송으로 대채하였음.
+* 직접 연결 사항 없음 : 시간상 Library 개발은 못하고 WiFi 전송으로 대채하였음   
+* Thingspark arduino 에서 연결 사용 
+* Google App Engine 서버 구축 수신용 RestfulAPI 용도로 사용 
 
 
 ***
