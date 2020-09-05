@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZoomboTA.MainPage">
+    <ContentPage.Content>
+        <Grid ColumnSpacing="6" RowSpacing="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="물체온도"  Grid.Row="0" Grid.Column="0" FontSize="30"   x:Name="objTemp1"  BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="0"         Grid.Row="0" Grid.Column="1" FontSize="30"   x:Name="objTemp2"  BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="주변온도"  Grid.Row="1" Grid.Column="0" FontSize="30"   x:Name="envTemp1"  BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="0"         Grid.Row="1" Grid.Column="1" FontSize="30"   x:Name="envTemp2"  BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="직선거리"  Grid.Row="2" Grid.Column="0" FontSize="30"   x:Name="distance1" BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="0"         Grid.Row="2" Grid.Column="1" FontSize="30"   x:Name="distance2" BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="측정시간"  Grid.Row="3" Grid.Column="0" FontSize="30"   x:Name="regDate1"  BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Label Text="0"         Grid.Row="3" Grid.Column="1" FontSize="30"   x:Name="regDate2"  BackgroundColor="LightGray" HorizontalTextAlignment="Center"  />
+            <Button Text="확인"     Grid.Row="4" Grid.Column="0" FontSize="30"    Clicked="Button_Load"   />
+            <Button Text="리셋"     Grid.Row="4" Grid.Column="1" FontSize="30"    Clicked="Button_Reset"  />
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>
