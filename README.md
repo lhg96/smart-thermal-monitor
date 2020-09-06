@@ -40,8 +40,14 @@
 # 구현사항 
 * 직접 연결 사항 없음 : 시간상 Library 개발은 못하고 WiFi 전송으로 대채하였음   
 * Thingspark arduino 에서 연결 사용 
-* Google App Engine 서버 구축 수신용 RestfulAPI 용도로 사용 
+* Google App Engine 서버 구축 수신용 RestfulAPI 용도로 사용
 
+# 추가계획 
+* 데이터 보정용 머신러닝 학습기 구축(Google App Engine)  
+* 타이젠 i2c 데이터 통신 라이브러리 개발
+* 아두이노 Teensy 고속 보드로 교체   
+* 원거리용 적외선 온도 센서로 교체 
+* 영상 처리 사람 얼굴인식 기능 추가  
 
 ***
 
