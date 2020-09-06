@@ -1,3 +1,6 @@
+# 시연 동영상
+[![Watch the video](https://img.youtube.com/vi/ZQ_vkRSv8H0/0.jpg)](https://youtu.be/ZQ_vkRSv8H0)  
+
 # 팀명 및 팀원  
 * 팀명 zoombo
 * 팀원 임현근 프로그램 개발 및 하드웨어 설계   
