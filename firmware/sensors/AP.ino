@@ -3,12 +3,12 @@
 //d010 //테스트기
 const String did      =  "d010";
 
-const char* ssid      =  "hyuniptime";
-const char* password  =  "01066391694";
+const char* ssid      =  "YOUR_WIFI_SSID";
+const char* password  =  "YOUR_WIFI_PASSWORD";
 
 const char* hostGet   = "api.thingspark.kr";
 String urlGet    = "/channels/entrys";
-String apiKey    = "apiKey=lIHsJvyroZydkQXI"; 
+String apiKey    = "apiKey=YOUR_API_KEY"; 
 const int httpPort    = 80;
 
 void initWiFi(){

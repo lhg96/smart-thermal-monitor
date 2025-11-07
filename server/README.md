@@ -60,7 +60,11 @@ server/
 @Path("/last")
 @Consumes(MediaType.APPLICATION_JSON)
 public String getEnvTemp(){
-    String address = "http://api.thingspark.kr/channels/65703/last";
+    ```java
+private async void Button_Load(object sender, EventArgs e)
+{            
+    string json = await new HttpClient()
+        .GetStringAsync("http://zoomboapi.appspot.com/api/thermal/last");
     // ThingsPark API 호출 및 데이터 파싱
     return field1+"/"+field2+"/"+field3+"/"+regDate;
 }
@@ -132,9 +136,12 @@ gcloud app browse
 ### 채널 설정
 
 ```java
+### ThingsPark 연동
+
+```java
 // ThingsPark 설정
-String address = "http://api.thingspark.kr/channels/65703/last";
-String apiKey = "lIHsJvyroZydkQXI";
+String address = "http://api.thingspark.kr/channels/YOUR_CHANNEL_ID/last";
+String apiKey = "YOUR_API_KEY";
 ```
 
 ### 데이터 매핑
