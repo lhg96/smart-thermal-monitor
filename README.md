@@ -268,7 +268,7 @@ Response: "envTemp/objTemp/distance/timestamp"
 ### 🛠️ 전문 분야
 - IoT 시스템 설계 및 개발
 - 임베디드 소프트웨어 개발 (Arduino, ESP32)
-- 모바일 앱 개발 (Tizen, Xamarin)
+- AI 서비스 개발 (LLM, MCP Agent)
 - 클라우드 서비스 구축 (Google Cloud Platform)
 - 하드웨어 프로토타이핑
 
