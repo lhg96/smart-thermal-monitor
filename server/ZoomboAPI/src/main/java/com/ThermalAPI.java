@@ -44,7 +44,7 @@ public class ThermalAPI extends HttpServlet {
 	@Path("/last")
 	public String getEnvTemp(){
 		String returnValue = "";
-		String address= "http://api.thingspark.kr/channels/65703/last";
+		String address= "http://api.thingspark.kr/channels/YOUR_CHANNEL_ID/last";
 		try {
 			URL url = new URL(address);
 			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
@@ -69,7 +69,7 @@ public class ThermalAPI extends HttpServlet {
 		return returnValue;
 		/*
 		int len = 10; //default	
-		String address = "https://api.thingspark.kr/channels/65703/entrys?results="+len;
+		String address = "https://api.thingspark.kr/channels/YOUR_CHANNEL_ID/entrys?results="+len;
 		
 		List<Thermal> thermalList = new ArrayList();
 		try {

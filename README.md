@@ -182,7 +182,7 @@ cd mobile-app/ZoomboTA
 
 ### ThingsPark IoT 연동
 ```
-GET /channels/65703/last
+GET /channels/YOUR_CHANNEL_ID/last
 Response: field1/field2/field3/created_at
 - field1: 환경온도 (°C)
 - field2: 물체온도 (°C)  

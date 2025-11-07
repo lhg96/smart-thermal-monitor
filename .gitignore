@@ -1,0 +1,64 @@
+# 민감한 설정 파일들
+config.h
+secrets.h
+.env
+*.key
+*.pem
+local_config.*
+development.properties
+
+# 개발 환경
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 관련
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java 빌드 파일
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Arduino IDE
+*.hex
+*.elf
+*.map
+
+# Tizen/Xamarin
+bin/
+obj/
+*.user
+*.suo
+
+# Node.js (미래 확장용)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (미래 확장용)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+*.backup
