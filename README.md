@@ -68,14 +68,14 @@
 ```
 ┌─────────────┐    WiFi    ┌──────────────┐    HTTP    ┌─────────────┐
 │   ESP32D    │ ────────── │ ThingsPark   │ ────────── │   Tizen     │
-│ (센서 수집)  │            │   (IoT Hub)  │            │    App      │
+│   센서수집    │            │   (IoT Hub)  │            │    App      │
 └─────────────┘            └──────────────┘            └─────────────┘
        │                           │
-       │ 센서 데이터               │ RESTful API
+       │ 센서 데이터                  │ RESTful API
        ▼                           ▼
 ┌─────────────┐            ┌──────────────┐
-│   다중센서   │            │ Google App   │
-│   모듈들    │            │   Engine     │
+│   다중센서    │            │ Google App   │
+│   모듈들     │            │   Engine     │
 └─────────────┘            └──────────────┘
 ```
 
@@ -283,11 +283,6 @@ Response: "envTemp/objTemp/distance/timestamp"
 - **Tizen 개발팀** - 전문적인 멘토링 및 기술 지원
 - **ThingsPark & Google App Engine** - 안정적인 플랫폼 서비스 지원
 
-<p align="center">
-  <img src="assets/images/team.jpg" alt="Zoombo 팀" width="400"/>
-  <br>
-  <em>2020 서울 해커톤 Zoombo 팀</em>
-</p>
 
 ## 🔗 프로젝트 링크
 
