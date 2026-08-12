@@ -21,7 +21,7 @@
 > 
 > 저비용 고정밀 IoT 기반 열화상 감시 솔루션
 
-## � 목차
+## 📑 목차
 
 - [📋 프로젝트 개요](#-프로젝트-개요)
 - [🏆 수상 내역](#-수상-내역)
@@ -37,7 +37,7 @@
 - [🔮 향후 계획](#-향후-계획)
 - [📞 문의하기](#-문의하기)
 
-## �📋 프로젝트 개요
+## 📋 프로젝트 개요
 
 **Zoombo**는 기존 200만원 이상의 고가 열화상 통제 시스템을 대체하는 저비용 고정밀 감시 장치입니다. 
 다중 센서 융합과 스마트 교정 알고리즘을 통해 계절별 온도 오차 문제를 해결합니다.
@@ -135,7 +135,7 @@ zoombo/
 ├── 📁 firmware/           # ESP32 펌웨어 (Arduino)
 │   └── sensors/           # 센서별 모듈 코드
 ├── 📁 mobile-app/         # Tizen 모바일 애플리케이션
-│   └── ZoomboTA/         # Xamarin.Forms 프로젝트
+│   └── ZoomboTA/ZoomboTA/ZoomboTA/  # Xamarin.Forms 프로젝트
 ├── 📁 server/             # Google App Engine 백엔드
 │   └── ZoomboAPI/        # Java RESTful API 서버
 ├── 📁 docs/              # 프로젝트 문서
@@ -174,7 +174,7 @@ gcloud app deploy
 ### 4. 모바일 앱 빌드
 ```bash
 # Tizen Studio에서 빌드
-cd mobile-app/ZoomboTA
+cd mobile-app/ZoomboTA/ZoomboTA/ZoomboTA
 # Xamarin.Forms 프로젝트 빌드 및 배포
 ```
 
@@ -278,7 +278,7 @@ Response: "envTemp/objTemp/distance/timestamp"
 
 ## 🔗 프로젝트 링크
 
-- **GitHub Repository**: [https://github.com/lhg96/zoombo](https://github.com/lhg96/zoombo)
+- **GitHub Repository**: [https://github.com/lhg96/smart-thermal-monitor](https://github.com/lhg96/smart-thermal-monitor)
 - **Demo Video**: [https://youtu.be/ZQ_vkRSv8H0](https://youtu.be/ZQ_vkRSv8H0)
 - **Project Documentation**: [docs/README.md](docs/README.md)
 
@@ -288,8 +288,8 @@ Response: "envTemp/objTemp/distance/timestamp"
 
 ### 🌟 이 프로젝트가 도움이 되었다면 Star를 눌러주세요! 🌟
 
-[![GitHub stars](https://img.shields.io/github/stars/lhg96/zoombo.svg?style=social&label=Star)](https://github.com/lhg96/zoombo)
-[![GitHub forks](https://img.shields.io/github/forks/lhg96/zoombo.svg?style=social&label=Fork)](https://github.com/lhg96/zoombo/fork)
+[![GitHub stars](https://img.shields.io/github/stars/lhg96/smart-thermal-monitor.svg?style=social&label=Star)](https://github.com/lhg96/smart-thermal-monitor)
+[![GitHub forks](https://img.shields.io/github/forks/lhg96/smart-thermal-monitor.svg?style=social&label=Fork)](https://github.com/lhg96/smart-thermal-monitor/fork)
 
 > *"Innovation is taking two things that already exist and putting them together in a new way."* - Tom Freston
 
